@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris - Hecho por Carlos Sandoval</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tetris - Hecho por Carlos Sandoval</h1>
+    <button id="startButton">Iniciar Juego</button>
+    <canvas id="tetris" width="200" height="400"></canvas>
+    <div id="score">Puntuación: 0</div>
+    <div id="highscores">
+        <h2>Tabla de Récords</h2>
+        <ul id="scoresList"></ul>
+    </div>
+    <div id="controls">
+        <button onclick="playerMove(-1)">Izquierda</button>
+        <button onclick="playerDrop()">Abajo</button>
+        <button onclick="playerMove(1)">Derecha</button>
+    </div>
+    <script src="tetris.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #282c34;
+    color: #61dafb;
+}
+
+canvas {
+    background: #000;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #61dafb;
+}
+
+#score {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#highscores {
+    margin-top: 20px;
+}
+
+h1, h2 {
+    color: #61dafb;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+#controls button {
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #61dafb;
+    border: none;
+    color: #282c34;
+    cursor: pointer;
+}
+
+#controls button:hover {
+    background-color: #21a1f1;
+}
